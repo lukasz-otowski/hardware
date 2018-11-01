@@ -1,0 +1,50 @@
+h2
+{
+    text-align:center;
+}
+
+figure
+{
+    letter-spacing:1px;
+}
+
+.dark-blue
+{
+    color:#006;
+}
+
+.light-blue
+{
+    color:#11f;
+}
+
+.yellow
+{
+    color:#fa0;
+}
+
+.red
+{
+    color:#f00;
+}
+
+.dark-yellow
+{
+    color:#660;
+}
+
+.green
+{
+    color:#0b0;
+}
+
+<article>
+
+    <h2><p >Witaj na stronie z opisem urządzeń techniki komputerowej.</p></h2>
+
+    <figure>
+        <img src="zdjecia/2014_Modding_komputera_01.jpg" alt="Tu powinno być zdjęcie komputera, ale niestety coś nie pykło :/" title="imejdż pobrany z wikipedii"/>
+        <figcaption><span style=" font-weight:bold;">Komputer stacjonarny, <span style="">z podświetlenia </span><span style="">ko</span><span style="">lo</span><span style="">ro</span><span style="">wy</span>, z obudowy <span style="color:#000;">czarny</span>.</span></figcaption>
+    </figure>
+
+</article>

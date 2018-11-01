@@ -1,0 +1,592 @@
+body
+{
+	/* Background pattern from CC BY-SA 3.0 - Subtle Patterns &copy; Toptal Designers. */
+	background-image: url("images/patterns/footer_lodyas.png");
+	background-color: #666;
+	margin: 0;
+    overflow-x: hidden;
+}
+/* styl użyty tylko na  index.html */
+.index-style h2
+{
+    text-align:center;
+}
+.index-style figure
+{
+    letter-spacing:1px;
+}
+.index-style .dark-blue
+{
+    color:#006;
+}
+.index-style .light-blue
+{
+    color:#11f;
+}
+.index-style .yellow
+{
+    color:#fa0;
+}
+.index-style .red
+{
+    color:#f00;
+}
+.index-style .green
+{
+    color:#0b0;
+}
+.index-style .black
+{
+    color:#000;
+}
+
+/* style dla poszczegolnych sekcji */
+header
+{
+    margin-bottom: 25px;
+}
+header h1
+{
+	width: 100%;
+	text-align: center;
+    text-transform: uppercase;
+	background-color: #fff;
+	font-size: 40px;
+	font-family: 'Audiowide', cursive;
+	border-bottom: 3px solid #000;
+    text-shadow: 3px 0px 5px #888;
+    margin: 0;
+}
+
+.container
+{
+    width: 100%;
+}
+
+/* stylizacja nawigacji */
+nav
+{
+    position: fixed;
+    width: 16%;
+    min-width: 10%;
+    left: 3%;
+    min-height: auto;
+    padding-bottom: 2%;
+	
+    
+	font-size: 20px;
+    background-image: url(images/patterns/redox_01.png);
+	border: 3px solid #111;
+	border-radius: 15px;	
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+	-ms-box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+	box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+}
+
+nav > ul
+{
+    padding: 0;
+    margin: -75px 0px 0px 0px;
+}
+
+nav > ul > li:first-child
+{
+    color: transparent;
+}
+
+nav > ul > li:last-child
+{
+    list-style-type: none;
+}
+
+nav > ul > li > ul
+{
+/*    display: inline-block;*/
+    position: relative;
+    line-height: 150%;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+nav > ul > li  > ul > li 
+{
+    display: inline-block;
+    width: 100%;
+    color: #000;
+	font-weight: 800;
+	font-family: sans-serif;
+}
+
+nav > ul > li  > ul > li:hover
+{
+    margin: -1px 0px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+    background-color: rgba(150,0,0,0.9);
+}
+
+.current
+{
+    margin: -1px 0px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+    background-color: rgba(0,150,0,0.9);
+}
+
+.current a
+{
+    color: #004400;
+}
+
+nav > ul > li  > ul > li a
+{
+    display: inline-block;
+    width: 95%;
+    padding: 0% 0% 0% 5%;
+    text-decoration: none;
+	color: #000;
+    cursor: pointer;
+}
+
+nav > ul > li  > ul > li a:hover
+{
+    width: 100%; 
+
+    color: #eee;
+}
+
+/* stylizowanie elementów article */
+article
+{
+	background-image: url("images/patterns/redox_01.png");
+	border: 3px solid #111;
+	border-radius: 5px;	
+	width: 60%;
+	text-align: center;
+	margin-bottom: 10%;
+	padding-bottom:3%;
+    min-width: 50%;
+    position: absolute;
+    left: 23%;
+}
+
+article figcaption
+{
+    font-family: 'Righteous', cursive;;
+}
+
+article .firstimg figcaption
+{
+    color: #008;
+}
+
+article figure img
+{
+    outline: 5%;
+    margin-top: 20px;
+	max-width:100%;
+	max-height:100%;
+    border: 3px solid black;
+}
+
+article h2
+{
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+    font-family: 'Audiowide', cursive;
+}
+
+article .art-header h2
+{
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
+}
+
+
+article h3, p
+{
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+article ul > li
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+	line-height: 200%;
+	border-left: 2px dashed #888;
+	padding-left: 10px;
+    line-height: 250%;
+}
+
+article ul.odd > li:nth-child(odd)
+{
+    width: 50%;
+    height: 100%;
+    border-left: 2px dashed #000;
+    line-height: 250%;
+    
+    /* gradient */
+    background: rgba(173,173,173,0.59);
+    background: -moz-linear-gradient(left, rgba(173,173,173,0.59) 0%, rgba(177,177,177,0.59) 24%, rgba(191,191,191,0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(173,173,173,0.59)), color-stop(24%, rgba(177,177,177,0.59)), color-stop(100%, rgba(191,191,191,0)));
+    background: -webkit-linear-gradient(left, rgba(173,173,173,0.59) 0%, rgba(177,177,177,0.59) 24%, rgba(191,191,191,0) 100%);
+    background: -o-linear-gradient(left, rgba(173,173,173,0.59) 0%, rgba(177,177,177,0.59) 24%, rgba(191,191,191,0) 100%);
+    background: -ms-linear-gradient(left, rgba(173,173,173,0.59) 0%, rgba(177,177,177,0.59) 24%, rgba(191,191,191,0) 100%);
+    background: linear-gradient(to right, rgba(173,173,173,0.59) 0%, rgba(177,177,177,0.59) 24%, rgba(191,191,191,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadad', endColorstr='#bfbfbf', GradientType=1 );
+}
+
+/* lista zabezpieczen w dziale "zasilacze" */
+article .zablist li
+{
+    text-align: left;
+    margin-top: 3%;
+}
+
+/* tabelka w dziale "RAM" */
+article > .ramtable
+{
+    width: 75%;
+    margin: auto auto;
+    border-spacing: 10px 3px;
+    
+}
+
+article .ramtable tr > th
+{
+    color: #fff;
+    font-family: courier;
+    font-weight: bold;
+    font-size: 160%;
+    border: 3px solid #008;
+    border-radius: 3px;
+    padding: 5px 10px;
+	text-shadow: 0 0 5px #000;
+    background: rgb(0, 20, 132);
+}
+
+article .ramtable tr > td
+{
+    color: #004;
+    font-family: arial;
+    font-size: 140%;
+/*    font-weight: bold;*/
+    border: 3px solid #008;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-image: url(images/patterns/tabelka.png);
+	text-shadow:
+	0px 0px 1px #000;
+    background: rgb(0, 145, 255);
+}
+
+article .ramtable tr td:first-child
+{
+    text-align:left;
+}
+
+article a
+{
+    text-decoration: none;
+    color: #3a7;
+}
+
+article a:hover
+{
+    text-decoration: none;
+    color: #3af;
+}
+
+article a:visited
+{
+    text-decoration: none;
+    color: #05a;
+}
+
+/* klasy pomocne */
+.red-color
+{
+    color: red;
+}
+
+.align-left
+{
+    text-align:left; 
+    padding: 0% 5%;
+}
+
+/* curiosity */
+article .curiosity
+{
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;	
+	max-width: 75%;
+	max-height: 75%;
+	background-image: url("images/patterns/darkred.png");
+	border: 3px solid #f00;
+	border-radius: 10px;
+	color: yellow;
+	font-size: 20px;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+	-ms-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+}
+
+article .curiosity h2
+{
+	letter-spacing: 5px;
+}
+
+article .curiosity p
+{
+    font-size: 100%;
+    opacity: 0;
+    transition: opacity 0.5s linear
+}
+
+article .curiosity:hover p
+{
+    opacity: 1;
+    color: yellow;
+
+}
+
+/* advertising and footer */
+.advertising
+{
+/*	width: 15%;*/
+	height: 100%;
+    margin-left: 1%;
+    position: absolute;
+    left: 85%;
+    margin-bottom: 5%;
+}
+.img-normal
+{
+    display: block;
+}
+.img-tablet
+{
+    display: none;
+}
+
+footer
+{
+ 	width: 100%; 
+	height: 20px;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 25px;
+	border-top: 2px solid #000;
+}
+
+/* RESPONSYWNOSC */
+/*@media screen and (max-width: 768px)*/
+
+@media screen and (max-width: 970px)
+{
+    body
+    {
+/*        overflow: scroll;*/
+    }
+    .container
+    {
+        width: 100%;
+        box-sizing: border-box;
+/*
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+*/
+    }
+    
+    nav
+    {
+        position: static;
+        width: 100%;
+        min-height: 40px;
+        height: 80px;
+        max-height: 80px;
+        padding-bottom: 0%;
+        z-index: 2;
+        
+        border-top: 3px solid #111;
+        border-bottom: 3px solid #111;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        -webkit-box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+        -moz-box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+        -ms-box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+        box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+        
+        background-image: url(images/patterns/redox_01.png);
+    }
+    
+    nav > ul
+    {
+        width: 100%;
+        margin-top: 0px;
+        
+        text-align: center;
+        font-weight: 800;
+        font-family: sans-serif;
+        cursor: pointer;
+/*        line-height: 1;*/
+        background-image: url(images/patterns/redox_01.png);
+    }
+    
+    nav > ul > li:first-child
+    {
+        color: #000;
+    }
+    
+    nav > ul > li:nth-child(2) > ul
+    {
+        margin-top: -5px;
+        padding-left: 0px;
+        text-align: center;
+        width: 100%;
+        height: 250px;
+        background-image: url(images/patterns/redox_01.png);
+        z-index: 1;
+        
+        border-bottom: 3px solid #111;
+        -webkit-box-shadow: 0px 15px 15px 5px rgba(020, 020, 020, 0.9);
+        -moz-box-shadow: 0px 15px 15px 5px rgba(020, 020, 020, 0.9);
+        -ms-box-shadow: 0px 15px 15px 5px rgba(020, 020, 020, 0.9);
+        box-shadow: 0px 15px 15px 5px rgba(020, 020, 020, 0.9);
+    }
+    
+    /* normalnie nie wyswietlaj menu */
+    nav > ul > li:nth-child(2) > ul
+    {
+        display: none;
+    }
+    
+    /* wyswietlaj menu po najechaniu na nie */
+    nav > ul:hover > li:nth-child(2) > ul
+    {
+        display: block;
+    }
+    
+    nav > ul > li:nth-child(2) > ul > li a
+    {
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+    }
+    
+    nav > ul > li:nth-child(2) > ul > li a:hover
+    {
+    margin: -1px 0;
+    
+    color: #eee;
+    border: 1px solid #000;
+        
+    /* usuniencie zaokraglen z borderow */
+    border-top-right-radius: 0 0;
+    border-bottom-right-radius: 0 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    background-color: rgba(150,0,0,0.9);
+	-ms-box-shadow: 0px 0px 0px 0px rgba(204, 204, 204, 0.9);
+	-o-box-shadow: 0px 0px 0px 0px rgba(204, 204, 204, 0.9);
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(204, 204, 204, 0.9);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(204, 204, 204, 0.9);
+	box-shadow: 0px 0px 0px 0px rgba(204, 204, 204, 0.9);
+    }
+    
+    article
+    {
+        position: static;
+        width: 90%;
+/*
+        margin-left: auto;
+        margin-right: auto;
+*/
+        margin: 5% auto;
+    }
+    article .ramtable tr > th
+    {
+        font-size: 100%;
+    }
+    article .ramtable tr > td
+    {
+        font-size: 100%;
+    }
+    .advertising
+    {
+        position: static;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    /* reklama i stopka */
+    .advertising img
+    {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .img-normal
+    {
+        display: none;
+    }
+    .img-tablet
+    {
+        display: block;
+    }
+    
+    footer
+    {
+    
+    }
+}
+@media screen and (max-width: 420px)
+{
+    article
+    {
+/*        border: 3px solid #111;*/
+/*        border-radius: 5px;	*/
+        width: 100%;
+        border-left: none;
+        border-right: none;
+/*
+        text-align: center;
+        margin-bottom: 10%;
+        padding-bottom:3%;
+        min-width: 50%;
+        position: absolute;
+        left: 23%;
+*/
+    }
+    article .ciekawostka h2
+    {
+	    font-size: 22px;
+    }
+    .advertising
+    {
+        margin: 30px auto 60px auto;
+    }
+    footer
+    {
+        font-size: 14px;
+        height: 30px;
+    }
+}

@@ -1,0 +1,386 @@
+body
+{
+	/* Background pattern from CC BY-SA 3.0 - Subtle Patterns &copy; Toptal Designers. */
+	background-image: url("zdjecia/patterns/footer_lodyas.png");
+	background-color: #666;
+	margin: 0;
+    overflow-x: hidden;
+}
+
+header
+{
+	text-align: center;
+	background-color: #fff;
+	font-size: 40px;
+	font-family: 'Audiowide', cursive;
+	width: 100%;
+	border-bottom: 3px solid #000;
+    text-shadow: 3px 0px 5px #888;
+}
+
+.container
+{
+    width: 100%;
+}
+
+/*stylizacja nawigacji poczatek*/
+nav
+{
+	font-size:1.2vw;
+    background-image: url(zdjecia/patterns/redox_01.png);	
+	min-height: 300px;
+    min-height: 50%;
+	width: 14%;
+    min-width: 10%;
+	border: 3px solid #111;
+	border-radius: 15px;	
+    position: fixed;
+    left: 5%;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+	-ms-box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+	box-shadow: 3px 3px 30px 5px rgba(020, 020, 020, 0.9);
+    /*animacja znikajacego menu*/
+/*
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+nav:hover
+{
+    opacity: 1;
+*/
+}
+
+nav ul
+{
+    position: relative;
+    left: -20%;
+    left: -10%;
+    list-style-type: none;
+    line-height: 150%;
+        
+}
+
+nav ul > li 
+{
+    color: #000;
+	font-weight: 800;
+	margin-top: 3px;
+	font-family: sans-serif;
+    position: relative;
+}
+
+nav ul > li a
+{
+    text-decoration: none;
+	color: #000;
+}
+
+nav ul > li a:hover
+{
+    border: 1px solid #000;
+    border-top-right-radius: 50% 99%;
+    border-bottom-right-radius: 50% 99%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0px 20px 0px 3px;
+    color: #ccc;
+    position: relative;
+    width: 50%;
+    background-color: rgba(150,0,0,0.9);
+	-ms-box-shadow: 0px 0px 10px 5px rgba(204, 204, 204, 0.9);
+	-o-box-shadow: 0px 0px 10px 5px rgba(204, 204, 204, 0.9);
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(204, 204, 204, 0.9);
+	-moz-box-shadow: 0px 0px 10px 5px rgba(204, 204, 204, 0.9);
+	box-shadow: 0px 0px 10px 5px rgba(204, 204, 204, 0.9);
+}
+
+/*strzalka z podpowiedzia*/
+/*
+.arrow
+{
+    position: fixed;
+    width: 14%;
+    left: 5%;
+    top: 70%;
+    opacity: 0;
+    animation-name: strzalkanapis;
+    animation-duration: 5s;
+}
+
+.arrow img
+{
+    opacity: 0;
+    position: fixed;
+    left: 11%;
+    animation: strzalka 5s;
+    display: block;
+    margin: 0px auto;
+    width: auto;
+    height: auto;
+}
+
+@keyframes strzalkanapis
+{
+    0% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes strzalka
+{
+    0% {top: 60%;}
+    25% {top: 65%;}
+    50% {top: 60%;}
+    75% {top: 65%;}
+    100% {top: 60%;}
+    0% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+}
+*/
+/*stylizacja nawigacji koniec*/
+
+/*stylizowanie elementów article poczatek*/
+article
+{
+	background-image: url("zdjecia/patterns/redox_01.png");
+	border: 3px solid #111;
+	border-radius: 5px;	
+	width: 50%;
+	text-align: center;
+	margin-bottom: 10%;
+	padding-bottom:3%;
+    min-width: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+article figcaption
+{
+    font-family: 'Righteous', cursive;;
+}
+
+article .firstimg figcaption
+{
+    color: #008;
+}
+
+article figure img
+{
+    outline: 5%;
+    margin-top: 20px;
+	max-width:100%;
+	max-height:100%;
+    border: 3px solid black;
+}
+
+article h1
+{
+	font-size: 35px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin-bottom: -10px;
+    font-family: 'Audiowide', cursive;
+}
+
+article h2
+{
+    font-family: 'Play', sans-serif;
+}
+
+
+article h3, p
+{
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+article ul > li
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+	line-height: 200%;
+	border-left: 2px dashed #888;
+	padding-left: 10px;
+    line-height: 250%;
+}
+
+article ul.odd > li:nth-child(odd)
+{
+    width: 50%;
+    height: 100%;
+    border-left: 2px dashed #000;
+    line-height: 250%;
+    background: rgba(173,173,173,0.59);
+    background: -moz-linear-gradient(left, rgba(173,173,173,0.59) 0%, rgba(177,177,177,0.59) 24%, rgba(191,191,191,0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(173,173,173,0.59)), color-stop(24%, rgba(177,177,177,0.59)), color-stop(100%, rgba(191,191,191,0)));
+    background: -webkit-linear-gradient(left, rgba(173,173,173,0.59) 0%, rgba(177,177,177,0.59) 24%, rgba(191,191,191,0) 100%);
+    background: -o-linear-gradient(left, rgba(173,173,173,0.59) 0%, rgba(177,177,177,0.59) 24%, rgba(191,191,191,0) 100%);
+    background: -ms-linear-gradient(left, rgba(173,173,173,0.59) 0%, rgba(177,177,177,0.59) 24%, rgba(191,191,191,0) 100%);
+    background: linear-gradient(to right, rgba(173,173,173,0.59) 0%, rgba(177,177,177,0.59) 24%, rgba(191,191,191,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadad', endColorstr='#bfbfbf', GradientType=1 );
+}
+
+/*lista zabezpieczen w dziale "zasilacze"*/
+article .zablist li
+{
+    text-align: left;
+    margin-top: 3%;
+}
+
+/*tabelka w dziale "RAM" poczatek*/
+article .ramtable
+{
+    margin: auto;
+    border-spacing: 10px 3px;
+}
+
+.ramtable th
+{
+    color: #fff;
+    font-family: courier;
+    font-weight: bold;
+    font-size: 160%;
+    border: 3px solid #008;
+    border-radius: 3px;
+    padding: 5px 10px;
+	text-shadow:
+	2px 2px 0 #33402a,
+	-2px 2px 0 #33402a,
+	-2px -2px 0 #33402a,
+	2px -2px 0 #33402a;
+/*gradient*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,2989d8+24,1e5799+90,1e5799+100 */
+    background: rgb(125,185,232); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(125,185,232,1) 0%, rgba(41,137,216,1) 24%, rgba(30,87,153,1) 90%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125,185,232,1) 0%,rgba(41,137,216,1) 24%,rgba(30,87,153,1) 90%,rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125,185,232,1) 0%,rgba(41,137,216,1) 24%,rgba(30,87,153,1) 90%,rgba(30,87,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+}
+
+article .ramtable tr > td
+{
+    color: #fff;
+    font-family: arial;
+    font-size: 140%;
+    border: 3px solid #008;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-image: url(zdjecia/patterns/tabelka.png);
+	text-shadow:
+	2px 2px 0 #002,
+	-2px 2px 0 #002,
+	-2px -2px 0 #002,
+	2px -2px 0 #002;
+/*gradient*/
+    background: rgba(74,177,255,1);/* Old Browsers */
+    background: -moz-linear-gradient(top, rgba(74,177,255,1) 0%, rgba(83,160,223,1) 24%, rgba(36,105,183,1) 90%, rgba(36,105,183,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(74,177,255,1)), color-stop(24%, rgba(83,160,223,1)), color-stop(90%, rgba(36,105,183,1)), color-stop(100%, rgba(36,105,183,1)));/* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(74,177,255,1) 0%, rgba(83,160,223,1) 24%, rgba(36,105,183,1) 90%, rgba(36,105,183,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(74,177,255,1) 0%, rgba(83,160,223,1) 24%, rgba(36,105,183,1) 90%, rgba(36,105,183,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(74,177,255,1) 0%, rgba(83,160,223,1) 24%, rgba(36,105,183,1) 90%, rgba(36,105,183,1) 100%); /* IE 10+ */
+    background: linear-gradient(to bottom, rgba(74,177,255,1) 0%, rgba(83,160,223,1) 24%, rgba(36,105,183,1) 90%, rgba(36,105,183,1) 100%);/* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ab1ff', endColorstr='#2469b7', GradientType=0 );/* IE6-9 */
+}
+
+article .ramtable tr td:first-child
+{
+    text-align:left;
+}
+/*tabelka w dziale "RAM" koniec*/
+
+
+article a
+{
+    text-decoration: none;
+    color: #3a7;
+}
+
+article a:hover
+{
+    text-decoration: none;
+    color: #3af;
+}
+
+article a:visited
+{
+    text-decoration: none;
+    color: #05a;
+}
+
+/*klasy pomocne*/
+.red-color
+{
+    color: red;
+}
+
+.align-left
+{
+    text-align:left; 
+    padding: 0% 5%;
+}
+
+/*stylizowanie ciekawostki poczatek*/
+article .ciekawostka
+{
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;	
+	max-width: 75%;
+	max-height: 75%;
+	background-image: url("zdjecia/patterns/darkred.png");
+	border: 3px solid #f00;
+	border-radius: 10px;
+	color: yellow;
+	font-size: 20px;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+	-ms-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+}
+
+article .ciekawostka h2
+{
+	letter-spacing: 5px;
+}
+
+article .ciekawostka p
+{
+    font-size: 100%;
+    opacity: 0;
+    transition: opacity 0.5s linear
+}
+
+article .ciekawostka:hover p
+{
+    opacity: 1;
+    color: yellow;
+
+}
+/*stylizowanie ciekawostki koniec*/
+/*stylizowanie elementów article koniec*/
+
+.reklama
+{
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    left: 85%;
+}
+
+footer
+{
+ 	width: 100%; 
+	height: 20px;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 25px;
+	border-top: 2px solid #000;
+}
